@@ -6,10 +6,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0792-binary-search](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0792-binary-search) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2058-concatenation-of-array](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2058-concatenation-of-array) |
 ## Simulation
 |  |
 | ------- |
 | [2058-concatenation-of-array](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2058-concatenation-of-array) |
+## Binary Search
+|  |
+| ------- |
+| [0792-binary-search](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0792-binary-search) |
 <!---LeetCode Topics End-->
