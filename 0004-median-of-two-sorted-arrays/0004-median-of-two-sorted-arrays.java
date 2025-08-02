@@ -1,45 +1,35 @@
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int n = nums1.length;
-        int m = nums2.length;
-        int total = n + m;
-        int count = 0;
-        int i = 0, j = 0;
-        int index2 = total / 2;
-        int index1 = index2 - 1;
-        int ind1el = 0, ind2el = 0;
+        int n=nums1.length;
+        int m=nums2.length;
+        int k=n+m;
+        if(n>m) return findMedianSortedArrays(nums2,nums1);
+        int low=0;
+        int high=n;
+        int left=(n+m+1)/2;
+        while(low<=high){
+            int mid1=(low+high)/2;
+            int mid2=left-mid1;
+            int l1=Integer.MIN_VALUE,l2=Integer.MIN_VALUE;
+            int r1=Integer.MAX_VALUE,r2=Integer.MAX_VALUE;
+            if(mid1<n) r1=nums1[mid1];
+            if(mid2<m) r2=nums2[mid2];
+            if(mid1-1>=0) l1=nums1[mid1-1];
+            if(mid2-1>=0) l2=nums2[mid2-1];
+            if(l1<=r2 && l2<=r1){
+                if(k%2==1) return Math.max(l1,l2);
+                return (double)(Math.max(l1,l2)+Math.min(r1,r2))/2;
 
-        while (i < n && j < m) {
-            int val;
-            if (nums1[i] < nums2[j]) {
-                val = nums1[i++];
-            } else {
-                val = nums2[j++];
             }
-
-            if (count == index1) ind1el = val;
-            if (count == index2) ind2el = val;
-            count++;
+            else if(l1> r2){
+                high=mid1-1;
+            }
+            else{
+                low=mid1+1;
+            }
         }
+        return 0;
 
-        while (i < n) {
-            int val = nums1[i++];
-            if (count == index1) ind1el = val;
-            if (count == index2) ind2el = val;
-            count++;
-        }
-
-        while (j < m) {
-            int val = nums2[j++];
-            if (count == index1) ind1el = val;
-            if (count == index2) ind2el = val;
-            count++;
-        }
-
-        if (total % 2 == 0) {
-            return (ind1el + ind2el) / 2.0;
-        } else {
-            return ind2el;
-        }
+        
     }
 }
