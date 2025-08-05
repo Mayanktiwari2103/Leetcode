@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0151-reverse-words-in-a-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 ## Queue
 |  |
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0018-4sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0018-4sum) |
+| [0151-reverse-words-in-a-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 ## Sorting
 |  |
 | ------- |
