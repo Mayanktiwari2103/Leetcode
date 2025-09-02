@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0047-permutations-ii) |
 | [0074-search-a-2d-matrix](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0090-subsets-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0090-subsets-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0022-generate-parentheses) |
+| [0079-word-search](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0151-reverse-words-in-a-string) |
@@ -154,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [2047-find-a-peak-element-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 ## Math
@@ -240,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0216-combination-sum-iii) |
@@ -248,4 +252,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0090-subsets-ii) |
+## Depth-First Search
+|  |
+| ------- |
+| [0079-word-search](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
