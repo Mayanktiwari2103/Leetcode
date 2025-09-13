@@ -1,44 +1,39 @@
 class Solution {
     public void generate(List<List<String>> ls,char[][] board,int n,int row){
-        //base case
         if(row==n){
-           List<String> ans=new ArrayList<>();
-           for(int i=0;i<n;i++){
-            ans.add(new String(board[i]));
-           }
-           ls.add(ans);
-           return;
+            List<String> list=new ArrayList<>();
+            for(char[]r:board){
+                list.add(new String(r));
+            }
+            ls.add(list);
+            return;
         }
+
         for(int col=0;col<n;col++){
             if(issafe(board,n,row,col)){
                 board[row][col]='Q';
                 generate(ls,board,n,row+1);
-                board[row][col] = '.';  
+                board[row][col]='.';
+
             }
         }
-     
     }
     public boolean issafe(char[][] board,int n,int row,int col){
-        //horizontal
-        for(int j=0;j<col;j++){
-            if(board[row][j]=='Q'){
+        //it should be not in same col 
+        for(int j=0;j<row;j++){
+            if(board[j][col]=='Q'){
                 return false;
             }
+
         }
-        //vertical
-        for(int i=0;i<row;i++){
-            if(board[i][col]=='Q'){
-                return false;
-            }
-        }
-        //upper-left-diagonal(bcoz we are placing row by row , so no need to check down diagonals)
-        for(int i=row, j=col;i>=0 &&j>=0;i--,j--){
+        //it should not be in left-upper diagonal
+        for(int i=row-1,j=col-1;i>=0 && j>=0;i--,j--){
             if(board[i][j]=='Q'){
                 return false;
             }
         }
-        //upper-right-diagonal
-        for(int i=row, j=col;i>=0 &&j<n;i--,j++){
+        //it should not be in right-upper diagonal
+         for(int i=row-1,j=col+1;i>=0 && j<n;i--,j++){
             if(board[i][j]=='Q'){
                 return false;
             }
@@ -50,11 +45,10 @@ class Solution {
         char[][] board=new char[n][n];
         for(int i=0;i<n;i++){
             Arrays.fill(board[i],'.');
-           
+
         }
-         generate(ls,board,n,0);
-         return ls;
-        
-        
+        generate(ls,board,n,0);
+        return ls;
+
     }
 }
