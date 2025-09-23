@@ -1,51 +1,51 @@
-class Solution {
-    public int[] prevsmall(int[] heights){
+class Solution { 
+    private int[] nse(int[] heights){
         int n=heights.length;
         Stack<Integer> st=new Stack();
-        int[] pse=new int[n];
-        for(int i=0;i<n;i++){
-            while(!st.isEmpty() && heights[st.peek()]>=heights[i]){
-                st.pop();
-            }
-            if(st.isEmpty()){
-                pse[i]=-1;
-            }
-            else{
-                pse[i]=st.peek();
-            }
-            st.push(i);
-        }
-        return pse;
-    }
-    public int[] nextsmall(int[] heights){
-        int n=heights.length;
-        Stack<Integer> st=new Stack();
-        int[] nse=new int[n];
+        int[] ans=new int[n];
         for(int i=n-1;i>=0;i--){
             while(!st.isEmpty() && heights[st.peek()]>=heights[i]){
                 st.pop();
             }
             if(st.isEmpty()){
-                nse[i]=n;
+                ans[i]=n;
             }
             else{
-                nse[i]=st.peek();
+                ans[i]=st.peek();
             }
             st.push(i);
         }
-        return nse;
+        return ans;
+
     }
-
-    public int largestRectangleArea(int[] heights) {
-        int[] prev=prevsmall(heights);
-        int[] next=nextsmall(heights);
-        int maxarea=0;
+    private int[] pse(int[] heights){
         int n=heights.length;
+        Stack<Integer> st=new Stack();
+        int[] ans=new int[n];
         for(int i=0;i<n;i++){
-          int width=next[i]-prev[i]-1;
-          int area=heights[i]*width;
-          maxarea=Math.max(maxarea,area);
+            while(!st.isEmpty() && heights[st.peek()]>=heights[i]){
+                st.pop();
+            }
+            if(st.isEmpty()){
+                ans[i]=-1;
+            }
+            else{
+                ans[i]=st.peek();
+            }
+            st.push(i);
+        }
+        return ans;
 
+    }
+    public int largestRectangleArea(int[] heights) {
+        int[] next=nse(heights);
+        int[] pre=pse(heights);
+        int n=heights.length;
+        int maxarea=0;
+        for(int i=0;i<n;i++){
+            int width=next[i]-pre[i]-1;
+            int area=heights[i]*width;
+            maxarea=Math.max(maxarea,area);
         }
         return maxarea;
 
