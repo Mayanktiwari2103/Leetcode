@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [0940-fruit-into-baskets](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0943-sum-of-subarray-minimums](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
+| [0966-binary-subarrays-with-sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -101,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0966-binary-subarrays-with-sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Hash Table
@@ -122,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0940-fruit-into-baskets](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0940-fruit-into-baskets) |
+| [0966-binary-subarrays-with-sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 ## String
 |  |
@@ -354,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0940-fruit-into-baskets) |
+| [0966-binary-subarrays-with-sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Monotonic Queue
