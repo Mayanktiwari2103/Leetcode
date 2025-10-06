@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0090-subsets-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0090-subsets-ii) |
+| [0136-single-number](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0136-single-number) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -340,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0090-subsets-ii) |
+| [0136-single-number](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0136-single-number) |
 ## Depth-First Search
 |  |
 | ------- |
