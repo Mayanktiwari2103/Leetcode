@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0216-combination-sum-iii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0239-sliding-window-maximum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0347-top-k-frequent-elements](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0410-split-array-largest-sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0485-max-consecutive-ones](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0205-isomorphic-strings](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0451-sort-characters-by-frequency) |
@@ -179,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
@@ -215,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 ## Divide and Conquer
 |  |
@@ -225,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0347-top-k-frequent-elements](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Matrix
 |  |
 | ------- |
@@ -281,11 +286,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0347-top-k-frequent-elements](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Bucket Sort
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 ## Linked List
 |  |
@@ -407,6 +414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Tree
 |  |
 | ------- |
