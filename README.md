@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
+| [0621-task-scheduler](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0621-task-scheduler) |
 | [0735-asteroid-collision](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0792-binary-search) |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0011-container-with-most-water) |
 | [0402-remove-k-digits](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0621-task-scheduler](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0621-task-scheduler) |
 | [0876-hand-of-straights](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0876-hand-of-straights) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [2032-largest-odd-number-in-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2032-largest-odd-number-in-string) |
@@ -141,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0621-task-scheduler](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0621-task-scheduler) |
 | [0876-hand-of-straights](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0876-hand-of-straights) |
 | [0940-fruit-into-baskets](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
@@ -190,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0621-task-scheduler](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0621-task-scheduler) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 ## Two Pointers
@@ -226,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0621-task-scheduler](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0621-task-scheduler) |
 | [0876-hand-of-straights](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0876-hand-of-straights) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 ## Divide and Conquer
@@ -296,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0621-task-scheduler](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0621-task-scheduler) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Bucket Sort
 |  |
