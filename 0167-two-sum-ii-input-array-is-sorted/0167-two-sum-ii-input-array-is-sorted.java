@@ -3,12 +3,12 @@ class Solution {
         int n=numbers.length;
         int l=0;
         int r=n-1;
-        while(l<r){
+        while(l<=r){
             int sum=numbers[l]+numbers[r];
             if(sum>target){
                 r--;
             }
-            else if(sum< target){
+            else if(sum < target){
                 l++;
             }
             else{
