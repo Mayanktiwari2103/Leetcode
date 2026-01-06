@@ -7,7 +7,6 @@ class Solution {
                 nums[i+1]=nums[j];
                 i++;
             }
-
         }
         return (i+1);
     }
