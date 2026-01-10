@@ -1,31 +1,38 @@
 class Solution {
     public int search(int[] nums, int target) {
         int n=nums.length;
-        int low=0;
-        int high=n-1;
-        while(low<=high){
-            int mid=(low+high)/2;
-            if(nums[mid]==target) return mid;
-            //left sorted
-            if(nums[low]<=nums[mid]){
-                if(nums[low]<=target && target<=nums[mid]){
-                    high=mid-1;
-                }
-                else{
-                    low=mid+1;
-                }
-
+        int l=0;
+        int r=n-1;
+        while(l<r){
+            int mid=l+(r-l)/2;
+            if(nums[mid]>nums[r]){
+                l=mid+1;
             }
             else{
-                if(nums[mid]<=target && target<=nums[high]){
-                    low=mid+1;
-                }
-                else{
-                    high=mid-1;
-                }
+                r=mid;
+            }
+        }
+        int pivot=l;
+        l=0;
+        r=n-1;
+        if(target>=nums[pivot] && target<=nums[r]){
+            l=pivot;
+        }
+        else{
+            r=pivot-1;
+        }
+        while(l<=r){
+            int mid=l+(r-l)/2;
+            if(nums[mid]==target){
+                return mid;
+            }
+            else if(nums[mid]>target){
+                r=mid-1;
+            }
+            else{
+                l=mid+1;
             }
         }
         return -1;
-        
     }
 }
