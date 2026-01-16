@@ -224,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0678-valid-parenthesis-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0678-valid-parenthesis-string) |
+| [0796-rotate-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0796-rotate-string) |
 | [0812-rotate-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -363,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String Matching
 |  |
 | ------- |
+| [0796-rotate-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0796-rotate-string) |
 | [0812-rotate-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0812-rotate-string) |
 ## Heap (Priority Queue)
 |  |
