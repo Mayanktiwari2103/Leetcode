@@ -13,42 +13,45 @@ class Solution {
         ListNode dummy=new ListNode(0);
         ListNode temp=dummy;
         while(l1!=null && l2!=null){
-            if(l1.val<l2.val){
+            if(l1.val<=l2.val){
                 temp.next=l1;
                 l1=l1.next;
+                temp=temp.next;
             }
             else{
                 temp.next=l2;
                 l2=l2.next;
+                temp=temp.next;
             }
+        }
+        while(l1!=null){
+            temp.next=l1;
+            l1=l1.next;
             temp=temp.next;
         }
-        if(l1!=null) temp.next=l1;
-        if(l2!=null) temp.next=l2;
-
-        return dummy.next;
-    }
-    public ListNode middle(ListNode head){
-        ListNode slow=head;
-        ListNode fast=head;
-        while(fast.next!=null && fast.next.next!=null){
-            slow=slow.next;
-            fast=fast.next.next;
+        while(l2!=null){
+            temp.next=l2;
+            l2=l2.next;
+            temp=temp.next;
         }
-        return slow;
-    } 
+        return dummy.next;
+
+
+    }
     public ListNode sortList(ListNode head) {
         if(head==null || head.next==null) return head;
-        ListNode mid=middle(head);
-        ListNode left=head;
-        ListNode right=mid.next;
-        mid.next=null; 
+        ListNode slow=head;
+        ListNode fast=head;
+        while(fast.next!=null  && fast.next.next!=null ){
+            slow=slow.next;
+            fast=fast.next.next;
 
-        left=sortList(left);
-        right=sortList(right);
-
+        }
+        ListNode rightstart=slow.next;
+        slow.next=null;
+        ListNode left=sortList(head);
+        ListNode right=sortList(rightstart);
         return merge(left,right);
-       
-        
+
     }
 }
