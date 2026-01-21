@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0075-sort-colors](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0079-word-search) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -274,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0061-rotate-list) |
+| [0075-sort-colors](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0125-valid-palindrome) |
@@ -299,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0018-4sum) |
 | [0047-permutations-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0047-permutations-ii) |
+| [0075-sort-colors](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0169-majority-element) |
