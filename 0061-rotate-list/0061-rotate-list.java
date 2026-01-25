@@ -9,36 +9,36 @@
  * }
  */
 class Solution {
-    public ListNode find(ListNode head, int k){
+    public ListNode find(ListNode head,int k){
+        int cnt=1;
         ListNode temp=head;
-        int count=1;
         while(temp!=null){
-            if(count==k){
-                return temp;
-            }
-            count++;
+            if(cnt==k) return temp;
+            cnt++;
             temp=temp.next;
         }
         return temp;
     }
     public ListNode rotateRight(ListNode head, int k) {
         if(head==null || head.next==null) return head;
-        ListNode tail=head;
-        int count=1;
-        while(tail.next!=null){
-            tail=tail.next;
-            count++;
-
-        }
-        if(k%count==0) return head;
-        k=k%count;
-        tail.next=head;
-        ListNode newlastnode=find(head,count-k);
-        head=newlastnode.next;
-        newlastnode.next=null;
-        return head;
+       ListNode temp=head;
+       int cnt=1;
+       while(temp.next!=null){
+        temp=temp.next;
+        cnt++;
+       }
+       ListNode tail=temp;
+       int len=cnt;
+       if(k%len==0) return head;
+       k=k%len;
+       tail.next=head;
+       ListNode newtail=find(head,len-k);
+       head=newtail.next;
+       newtail.next=null;
+       return head;
 
         
+        
+
     }
-    
 }
