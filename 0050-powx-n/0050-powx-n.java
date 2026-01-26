@@ -2,22 +2,20 @@ class Solution {
     public double myPow(double x, int n) {
         if(n==0) return 1;
         long N=n;
-        if(N<0){
+        if(n<0){
             x=1/x;
             N=-N;
-
         }
-        return fastpow(x,N);
-        
+        return pow(x,N);
     }
-    public double fastpow(double x, long n){
+    public double pow(double x, long n){
         if(n==0) return 1;
-        double half=fastpow(x,n/2);
         if(n%2==0){
-            return half*half;
-        }
+            return pow(x*x,n/2);
+        } 
         else{
-            return half*half*x;
+            return x*pow(x,n-1);
         }
+        
     }
 }
