@@ -1,22 +1,20 @@
 class Solution {
-    public void generate( List<String> result,int n,int open,int close,String str){
-        if(str.length()==(2*n)){
-            result.add(str);
+    public List<String> generateParenthesis(int n) {
+        ArrayList<String> result=new ArrayList<>();
+        generate("",n,0,0,result);
+        return result;
+    }
+    public static void generate(String s, int n, int open , int close, ArrayList<String> result){
+        if(s.length()==2*n){
+            result.add(s);
             return;
- 
         }
         if(open<n){
-            generate(result,n,open+1,close,str+"(");
+            generate(s+"(",n,open+1,close,result);
         }
         if(close<open){
-            generate(result,n,open,close+1,str+")");
+            generate(s+")",n,open,close+1,result);
         }
-    }
-    public List<String> generateParenthesis(int n) {
-        List<String> result=new ArrayList<>();
-        generate(result,n,0,0,"");
-        return result;
-        
 
     }
 }
