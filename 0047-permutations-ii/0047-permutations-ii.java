@@ -1,30 +1,24 @@
 class Solution {
-    public void generate(List<List<Integer>> result, int[] nums, List<Integer> list, boolean[] taken){
-        int n = nums.length;
+    public List<List<Integer>> permuteUnique(int[] nums) {
+        Arrays.sort(nums);
+        List<List<Integer>> result=new ArrayList<>();
+        boolean[] used = new boolean[nums.length];
+        generate(nums,result,new ArrayList<>(),used);
+        return result;
 
-        if(list.size() == n){
+    }
+    public void generate(int[] nums, List<List<Integer>> result,List<Integer> list,boolean used[]){
+        if(list.size()==nums.length && !result.contains(list)){
             result.add(new ArrayList<>(list));
             return;
         }
-
-        for(int i=0;i<n;i++){
-            if(taken[i]) continue;
-            if(i > 0 && nums[i] == nums[i-1] && !taken[i-1]) continue;
-            
+        for(int i=0;i<nums.length;i++){
+            if(used[i]) continue;
+            used[i]=true;
             list.add(nums[i]);
-            taken[i] = true;
-
-            generate(result, nums, list, taken);
-
+            generate(nums,result,list,used);
             list.remove(list.size()-1);
-            taken[i] = false;
+            used[i]=false;
         }
-    }
-
-    public List<List<Integer>> permuteUnique(int[] nums) {
-        Arrays.sort(nums); // sorting needed for duplicate check
-        List<List<Integer>> result = new ArrayList<>();
-        generate(result, nums, new ArrayList<>(), new boolean[nums.length]);
-        return result;
     }
 }
