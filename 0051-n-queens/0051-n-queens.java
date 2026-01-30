@@ -1,54 +1,49 @@
 class Solution {
-    public void generate(List<List<String>> ls,char[][] board,int n,int row){
-        if(row==n){
-            List<String> list=new ArrayList<>();
-            for(char[]r:board){
-                list.add(new String(r));
-            }
-            ls.add(list);
-            return;
+    public List<List<String>> solveNQueens(int n) {
+        List<List<String>> result = new ArrayList<>();
+        char[][] mat=new char[n][n];
+        for(int i=0;i<n;i++){
+            Arrays.fill(mat[i],'.');
         }
-
-        for(int col=0;col<n;col++){
-            if(issafe(board,n,row,col)){
-                board[row][col]='Q';
-                generate(ls,board,n,row+1);
-                board[row][col]='.';
-
-            }
-        }
+        generate(mat,0,n,result);
+        return result;
     }
-    public boolean issafe(char[][] board,int n,int row,int col){
-        //it should be not in same col 
-        for(int j=0;j<row;j++){
-            if(board[j][col]=='Q'){
+
+    public boolean issafe(char mat[][], int row, int col, int n) {
+        //column
+        for (int i = 0; i < row; i++) {
+            if (mat[i][col] == 'Q')
                 return false;
-            }
+        }
+        //upper-diagonal
+        for (int i = row - 1, j = col + 1; i >= 0 && j < n; i--, j++) {
+            if (mat[i][j] == 'Q')
+                return false;
 
         }
-        //it should not be in left-upper diagonal
-        for(int i=row-1,j=col-1;i>=0 && j>=0;i--,j--){
-            if(board[i][j]=='Q'){
+        for (int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--) {
+            if (mat[i][j] == 'Q')
                 return false;
-            }
-        }
-        //it should not be in right-upper diagonal
-         for(int i=row-1,j=col+1;i>=0 && j<n;i--,j++){
-            if(board[i][j]=='Q'){
-                return false;
-            }
         }
         return true;
     }
-    public List<List<String>> solveNQueens(int n) {
-        List<List<String>> ls=new ArrayList<>();
-        char[][] board=new char[n][n];
-        for(int i=0;i<n;i++){
-            Arrays.fill(board[i],'.');
+
+    public void generate(char mat[][], int row, int n, List<List<String>> result) {
+        if (row == n) {
+            List<String> temp = new ArrayList<>();
+            for(int i=0;i<n;i++) {
+                temp.add(new String(mat[i]));
+            }
+            result.add(temp);
 
         }
-        generate(ls,board,n,0);
-        return ls;
+        for (int col = 0; col < n; col++) {
+            if (issafe(mat,row, col,n)) {
+                mat[row][col] = 'Q';
+                generate(mat, row+1, n, result);
+                mat[row][col] = '.';
+            }
+        }
 
     }
 }
