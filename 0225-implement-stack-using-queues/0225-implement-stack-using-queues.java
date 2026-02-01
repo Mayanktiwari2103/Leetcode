@@ -1,7 +1,6 @@
 class MyStack {
-    Queue<Integer> q=new ArrayDeque();
+    Queue<Integer> q=new ArrayDeque<>();
     public MyStack() {
-        
     }
     
     public void push(int x) {
@@ -14,17 +13,17 @@ class MyStack {
     
     public int pop() {
         if(q.isEmpty()) return -1;
-        return q.remove();
+       return  q.remove();
     }
     
-    public int top() {
+    public int top() {    
         if(q.isEmpty()) return -1;
         return q.peek();
     }
     
     public boolean empty() {
-       if(q.isEmpty()) return true;
-       return false;
+        if(q.isEmpty()) return true;
+        else  return false;
     }
 }
 
