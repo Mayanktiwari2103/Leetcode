@@ -8,15 +8,13 @@ class Solution {
         HashMap<Integer,Integer> map=new HashMap<>();
         while(r<n){
             map.put(fruits[r],r);
-            if(map.size()>baskets){
+            while(map.size()>baskets){
                 if(map.get(fruits[l])==l){
                     map.remove(fruits[l]);
                 }
                 l++;
             }
-            if(map.size()<=baskets){
-                maxlen=Math.max(maxlen,r-l+1);
-            }
+            maxlen=Math.max(maxlen,r-l+1);
             r++;
 
         }
