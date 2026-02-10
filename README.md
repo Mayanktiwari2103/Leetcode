@@ -220,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0992-subarrays-with-k-different-integers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -254,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0812-rotate-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0812-rotate-string) |
 | [1021-remove-outermost-parentheses](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1078-remove-outermost-parentheses](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1078-remove-outermost-parentheses) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
@@ -553,6 +555,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1034-subarrays-with-k-different-integers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
