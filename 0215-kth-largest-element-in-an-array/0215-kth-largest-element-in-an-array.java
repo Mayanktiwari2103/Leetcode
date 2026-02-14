@@ -5,9 +5,10 @@ class Solution {
         for(int i=0;i<n;i++){
             minheap.add(nums[i]);
             if(minheap.size()>k){
-                minheap.poll();      
+                minheap.poll();
             }
         }
-        return minheap.peek();
+        return minheap.poll();
+        
     }
 }
