@@ -4,14 +4,16 @@ class Solution {
         int m=s.length;
         Arrays.sort(g);
         Arrays.sort(s);
+        int j=0;
         int cnt=0;
-        int i=0,j=0;
+        int i=0;
         while(i<n && j<m){
             if(s[j]>=g[i]){
                 cnt++;
                 i++;
             }
             j++;
+
         }
         return cnt;
     }
