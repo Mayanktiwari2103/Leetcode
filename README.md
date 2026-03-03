@@ -247,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0930-binary-subarrays-with-sum) |
 | [0940-fruit-into-baskets](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
@@ -375,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [0846-hand-of-straights](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0846-hand-of-straights) |
 | [0876-hand-of-straights](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0876-hand-of-straights) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1331-rank-transform-of-an-array](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
@@ -562,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Design
 |  |
 | ------- |
@@ -648,6 +651,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -670,6 +674,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Union Find
 |  |
 | ------- |
@@ -684,4 +689,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0111-minimum-depth-of-binary-tree](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 <!---LeetCode Topics End-->
