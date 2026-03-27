@@ -388,6 +388,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0846-hand-of-straights](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0846-hand-of-straights) |
 | [0876-hand-of-straights](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0876-hand-of-straights) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1305-all-elements-in-two-binary-search-trees](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1305-all-elements-in-two-binary-search-trees) |
 | [1331-rank-transform-of-an-array](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
@@ -594,6 +595,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1305-all-elements-in-two-binary-search-trees](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1305-all-elements-in-two-binary-search-trees) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Design
 |  |
@@ -701,6 +703,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1305-all-elements-in-two-binary-search-trees](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1305-all-elements-in-two-binary-search-trees) |
 | [2236-root-equals-sum-of-children](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2236-root-equals-sum-of-children) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Search Tree
@@ -716,6 +719,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0703-kth-largest-element-in-a-stream](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1305-all-elements-in-two-binary-search-trees](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1305-all-elements-in-two-binary-search-trees) |
 ## Binary Tree
 |  |
 | ------- |
@@ -752,6 +756,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1305-all-elements-in-two-binary-search-trees](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1305-all-elements-in-two-binary-search-trees) |
 | [2236-root-equals-sum-of-children](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2236-root-equals-sum-of-children) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Union Find
