@@ -5,12 +5,13 @@ class Solution {
         for(int i=0;i<n;i++){
             int find=target-nums[i];
             if(map.containsKey(find)){
-                return new int[] {map.get(find),i};
+                return new int[] { i, map.get(find)};
+
             }
             else{
                 map.put(nums[i],i);
             }
         }
-        return new int[] {};
+        return new int[] {-1,-1};
     }
 }
