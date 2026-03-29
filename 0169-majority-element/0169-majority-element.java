@@ -14,6 +14,7 @@ class Solution {
                 maj=nums[i];
                 cnt=1;
             }
+
         }
         return maj;
     }
