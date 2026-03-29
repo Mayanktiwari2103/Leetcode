@@ -16,19 +16,18 @@ class Solution {
             }
         }
         for(int i=0;i<n;i++){
-            if(cnt1>0){
+            if(cnt1> 0){
                 nums[i]=0;
                 cnt1--;
             }
-            else if(cnt2>0){
+            else if(cnt2 >0){
                 nums[i]=1;
                 cnt2--;
             }
             else{
                 nums[i]=2;
-                cnt3--;
+                cnt2--;
             }
-
         }
     }
 }
