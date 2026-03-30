@@ -5,17 +5,16 @@ class Solution {
         int r=n-1;
         int min=Integer.MAX_VALUE;
         while(l<=r){
-            int mid=l+(r-l)/2;
+            int mid=(l+r)/2;
             if(nums[l]<=nums[mid]){
                 if(nums[l]<min){
-                    min=nums[l];         
+                    min=nums[l];
                 }
                 l=mid+1;
             }
-            else{
+            if(nums[mid]<=nums[r]){
                 if(nums[mid]<min){
                     min=nums[mid];
-                    
                 }
                 r=mid-1;
             }
