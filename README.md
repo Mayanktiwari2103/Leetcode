@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1901-find-a-peak-element-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1901-find-a-peak-element-ii) |
 | [2047-find-a-peak-element-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2058-concatenation-of-array](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2058-concatenation-of-array) |
+| [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 | [2104-sum-of-subarray-ranges](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2226-maximum-candies-allocated-to-k-children) |
@@ -162,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1646-kth-missing-positive-number](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1901-find-a-peak-element-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1901-find-a-peak-element-ii) |
 | [2047-find-a-peak-element-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2047-find-a-peak-element-ii) |
+| [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2226-maximum-candies-allocated-to-k-children) |
 ## Dynamic Programming
 |  |
@@ -204,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1903-largest-odd-number-in-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [2032-largest-odd-number-in-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2032-largest-odd-number-in-string) |
+| [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Prefix Sum
 |  |
