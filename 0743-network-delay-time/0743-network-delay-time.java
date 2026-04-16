@@ -20,32 +20,34 @@ class Solution {
             adj.get(u).add(new Pair(v,w));
         }
 
-        Queue<Pair> q=new LinkedList<>();
+        PriorityQueue<Pair> pq=new PriorityQueue<>((a,b)-> a.first-b.first);
         int[] distance=new int[n+1];
         for(int i=1;i<=n;i++){
             distance[i]=Integer.MAX_VALUE;
         }
-        q.add(new Pair(0,k));
+        pq.add(new Pair(0,k));
         distance[k]=0;
-        while(!q.isEmpty()){
-            int time=q.peek().first;
-            int node=q.peek().second;
-            q.poll();
+        while(!pq.isEmpty()){
+            int time=pq.peek().first;
+            int node=pq.peek().second;
+            pq.poll();
             for(Pair it:adj.get(node)){
                 int adjnode=it.first;
                 int t=it.second;
                 if(t+time < distance[adjnode]){
-                    q.add(new Pair(t+time,adjnode));
+                    pq.add(new Pair(t+time,adjnode));
                     distance[adjnode]=t+time;
                 }
             }
         }
-
+        int ans=0;
         for(int i=1;i<=n;i++){
             if(distance[i]==Integer.MAX_VALUE){
                 return -1;
             }
+            ans=Math.max(ans,distance[i]);
         }
-        return Arrays.stream(distance).max().getAsInt();
+        return ans;
+        
     }
 }
