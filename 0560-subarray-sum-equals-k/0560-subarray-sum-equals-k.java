@@ -7,17 +7,15 @@ class Solution {
         int cnt=0;
         for(int i=0;i<n;i++){
             sum+=nums[i];
-            int m=sum-k;
-            if(map.containsKey(m)){
-                cnt+=map.get(m);
+            if(map.containsKey(sum-k)){
+                cnt+=map.get(sum-k);
             }
             if(map.containsKey(sum)){
-                map.put(sum,map.get(sum)+1);
+               map.put(sum,map.get(sum)+1);
             }
             else{
-                map.put(sum,1);
+                 map.put(sum,1);
             }
-
         }
         return cnt;
     }
