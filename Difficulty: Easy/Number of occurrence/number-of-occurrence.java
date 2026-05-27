@@ -4,47 +4,49 @@ class Solution {
         int prev=first(arr,target);
         int next=last(arr,target);
         return next-prev+1;
-        
-    }
-    public int first(int[] arr, int target){
-        int n=arr.length;
-        int l=0;
-        int r=n-1;
-        int firstind=-1;
-        while(l<=r){
-            int mid=(l+r)/2;
-            if(arr[mid]==target){
-                firstind=mid;
-                r=mid-1;
-            }
-            else if(target > arr[mid]){
-                l=mid+1;
-            }
-            else{
-                r=mid-1;
-            }
-        }
-        return firstind==-1 ? 1 : firstind;
+       
     }
     
-    public int last(int[] arr, int target){
+    private int first(int[] arr, int target){
         int n=arr.length;
         int l=0;
         int r=n-1;
-        int lastind=-1;
+        int first=-1;
         while(l<=r){
-            int mid=(l+r)/2;
+            int mid=l+(r-l)/2;
             if(arr[mid]==target){
-                lastind=mid;
-                l=mid+1;
+                first=mid;
+                r=mid-1;
             }
-            else if(target > arr[mid]){
+            else if(arr[mid] < target){
                 l=mid+1;
             }
             else{
                 r=mid-1;
             }
         }
-        return lastind==-1 ? 0: lastind;
+        return first;
     }
+    
+    private int last(int[] arr, int target){
+        int n=arr.length;
+        int l=0;
+        int r=n-1;
+        int last=-2;
+        while(l<=r){
+            int mid=l+(r-l)/2;
+            if(arr[mid]==target){
+                last=mid;
+                l=mid+1;
+            }
+            else if(arr[mid] < target){
+                l=mid+1;
+            }
+            else{
+                r=mid-1;
+            }
+        }
+        return last;
+    }
+    
 }
