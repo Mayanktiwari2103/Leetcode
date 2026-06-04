@@ -1,22 +1,24 @@
 class Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        List<List<Integer>> result=new ArrayList<>();
-        generate(candidates,target,result,new ArrayList<>(),0,0);
-        return result;
-    
-    }
-    public void generate(int[] candidates, int target, List<List<Integer>> result, List<Integer> list,int sum, int start ){
-        if(sum==target){
-            result.add(new ArrayList<>(list));
+       List<List<Integer>> ls=new ArrayList<>();
+       generate(candidates, target,0,0,ls,new ArrayList<>());
+       return ls;
 
-        }
+    }
+
+    private void generate(int[] candidates, int target,int ind,int sum,List<List<Integer>> ls,List<Integer> list){
         if(sum> target) return;
-        for(int i=start;i<candidates.length;i++){
+        if(sum==target){
+           ls.add(new ArrayList<>(list));
+           return;
+        }
+
+        for(int i=ind;i<candidates.length;i++){
             list.add(candidates[i]);
-            generate(candidates,target,result,list,sum+candidates[i],i);
+            generate(candidates,target,i,sum+candidates[i],ls,list);
             list.remove(list.size()-1);
         }
     }
-
+    
 }    
     
