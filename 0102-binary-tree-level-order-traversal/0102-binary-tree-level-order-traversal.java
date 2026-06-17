@@ -20,16 +20,17 @@ class Solution {
         if(root==null) return ls;
         q.add(root);
         while(!q.isEmpty()){
+            List<Integer> list=new ArrayList<>();
             int level=q.size();
-            List<Integer> sublist=new LinkedList<Integer>();
             for(int i=0;i<level;i++){
                 if(q.peek().left!=null) q.add(q.peek().left);
                 if(q.peek().right!=null) q.add(q.peek().right);
-                sublist.add(q.poll().val);
+                list.add(q.poll().val);
             }
-            ls.add(sublist);
+            ls.add(list);
         }
         return ls;
+
     }
     
 }
