@@ -16,18 +16,19 @@
 class Solution {
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> ls=new ArrayList<>();
-        if(root==null) return ls;
-        right(root,ls,0);
+        right(ls,root,0);
         return ls;
 
     }
-    
-    private void right(TreeNode root, List<Integer> ls,int level ){
+
+    private void right(List<Integer> ls,TreeNode root,int level){
         if(root==null) return;
         if(level==ls.size()){
             ls.add(root.val);
         }
-        right(root.right,ls,level+1);
-        right(root.left,ls,level+1);
+        right(ls,root.right,level+1);
+        right(ls,root.left,level+1);
     }
+    
+    
 }
