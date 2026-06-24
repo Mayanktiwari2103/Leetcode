@@ -19,25 +19,25 @@ class Solution {
         inorder(root,ls);
         int l=0;
         int r=ls.size()-1;
-        while(l < r){
+        while(l<r){
             int sum=ls.get(l)+ls.get(r);
             if(sum==k){
                 return true;
             }
-            else if(sum < k){
-                l++;
-            }
-            else{
+            else if(sum > k){
                 r--;
             }
+            else{
+                l++;
+            }
+
         }
         return false;
     }
-    private void inorder(TreeNode root, List<Integer> ls){
-        if(root==null) return ;
+    private void inorder(TreeNode root,List<Integer> ls){
+        if(root==null) return;
         inorder(root.left,ls);
         ls.add(root.val);
         inorder(root.right,ls);
-
     }
 }
