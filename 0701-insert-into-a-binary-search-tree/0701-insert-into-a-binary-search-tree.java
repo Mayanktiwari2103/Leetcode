@@ -19,9 +19,9 @@ class Solution {
         if(curr==null) return new TreeNode(val);
         while(curr!=null){
             if(val < curr.val){
-                if(curr.left==null) {
-                   curr.left=new TreeNode(val);
-                   break;
+                if(curr.left==null){
+                    curr.left=new TreeNode(val);
+                    break;
                 }
                 curr=curr.left;
             }
@@ -33,7 +33,6 @@ class Solution {
                 curr=curr.right;
             }
         }
-        
         return root;
     }
 }
