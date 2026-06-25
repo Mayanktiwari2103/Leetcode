@@ -1,43 +1,43 @@
 class Solution {
     public int findCircleNum(int[][] isConnected) {
-        int V =isConnected.length;
-        ArrayList<ArrayList<Integer>> ls=new ArrayList<ArrayList<Integer>>();
-        for(int i=0;i<V;i++){
-            ls.add(new ArrayList<Integer>());
+        ArrayList<ArrayList<Integer>> ls=new ArrayList<>();
+        int n=isConnected.length;
+        int m=isConnected[0].length;
+        for(int i=0;i<n;i++){
+            ls.add(new ArrayList<>());
         }
-
-        for(int i=0;i<V;i++){
-            for(int j=0;j<V;j++){
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
                 if(isConnected[i][j]==1 && i!=j){
                     ls.get(i).add(j);
-                    ls.get(j).add(i);
                 }
             }
         }
-        int provinces=0;
-        boolean visited[]=new boolean[V];
-        for(int i=0;i<V;i++){
-            if(visited[i]==false){
-                bfs(ls, i , visited);
-                provinces++;
-            }
-
+        int[] visited=new int[n];
+        int cnt=0;
+        for(int i=0;i<n;i++){
+           if(visited[i]==0){
+              cnt++;
+              bfs(visited,i,ls);
+           }
         }
-        return provinces;
+        return cnt;
     }
 
-    private void bfs(ArrayList<ArrayList<Integer>> ls, int start,boolean[] visited){
+    private void bfs(int[] visited,int src,ArrayList<ArrayList<Integer>> ls){
         Queue<Integer> q=new LinkedList<>();
-        q.offer(start);
-        visited[start]=true;
+        q.add(src);
+        visited[src]=1;
         while(!q.isEmpty()){
-            int node=q.poll();
-            for(int it:ls.get(node)){
-                if( visited[it]==false){
-                    visited[it]=true;
+            int curr=q.poll();
+            for(int it:ls.get(curr)){
+                if(visited[it]==0){
                     q.add(it);
+                    visited[it]=1;
                 }
             }
         }
     }
+
+    
 }
