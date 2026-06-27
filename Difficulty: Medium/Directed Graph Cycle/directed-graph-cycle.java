@@ -1,50 +1,42 @@
 class Solution {
     public boolean isCyclic(int V, int[][] edges) {
         // code here
-        ArrayList<ArrayList<Integer>> adj=new ArrayList<ArrayList<Integer>>();
-        
+        ArrayList<ArrayList<Integer>> ls=new ArrayList<>();
         for(int i=0;i<V;i++){
-            adj.add(new ArrayList<>());
+            ls.add(new ArrayList<>());
         }
         
         for(int[] edge:edges){
-            adj.get(edge[0]).add(edge[1]);
+            int u=edge[0];
+            int v=edge[1];
+            ls.get(u).add(v);
         }
-        
-        return possible(V,adj);
-        
-    }
-    
-    private boolean possible(int V,ArrayList<ArrayList<Integer>> adj){
-        
-        int[] indegree=new int[V];
+        int[] vis=new int[V];
+        int[] pathvis=new int[V];
         for(int i=0;i<V;i++){
-            for(int it:adj.get(i)){
-                indegree[it]++;
-            }
-        }
-        
-        Queue<Integer> q=new LinkedList<>();
-        for(int i=0;i<V;i++){
-            if(indegree[i]==0){
-                q.add(i);
-            }
-        }
-        int cnt=0;
-        while(!q.isEmpty()){
-            int node=q.poll();
-            cnt++;
-            for(int it:adj.get(node)){
-                indegree[it]--;
-                if(indegree[it]==0){
-                    q.add(it);
+            if(vis[i]==0){
+                if(dfs(ls,vis,pathvis,i)==true){
+                    return true;
                 }
             }
         }
-        
-        if(cnt==V){
-            return false;
+        return false;
+    }
+    
+    private boolean dfs(ArrayList<ArrayList<Integer>> ls,int[] vis, int[] pathvis,int src){
+        vis[src]=1;
+        pathvis[src]=1;
+        for(int it:ls.get(src)){
+            if(vis[it]==0){
+                if(dfs(ls,vis,pathvis,it)==true){
+                    return true;
+                }
+            }
+            else if(pathvis[it]==1){
+                return true;
+            }
         }
-        return true;
+        pathvis[src]=0;
+        return false;
     }
 }
