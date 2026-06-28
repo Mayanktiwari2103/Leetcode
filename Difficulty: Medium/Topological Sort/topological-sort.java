@@ -9,29 +9,33 @@ class Solution {
         for(int edge[]:edges){
             adj.get(edge[0]).add(edge[1]);
         }
-        int[] visited=new int[V];
-        
+        int[] indegree=new int[V];
         for(int i=0;i<V;i++){
-            if(visited[i]==0){
-                dfs(i,adj,visited,st);
+            for(int it:adj.get(i)){
+                indegree[it]++;
+            }
+        }
+        ArrayList<Integer> ls= new ArrayList<>();
+        Queue<Integer> q=new LinkedList<>();
+        for(int i=0;i<V;i++){
+            if(indegree[i]==0){
+                q.add(i);
+            }
+        }
+        while(!q.isEmpty()){
+            int node=q.poll();
+            ls.add(node);
+            for(int it:adj.get(node)){
+                indegree[it]--;
+                if(indegree[it]==0){
+                    q.add(it);
+                }
             }
         }
         
-        ArrayList<Integer> ls=new ArrayList<Integer>();
-        while(!st.isEmpty()){
-            ls.add(st.pop());
-    
-        }
         return ls;
+        
     }
     
-    private void dfs(int node,ArrayList<ArrayList<Integer>> adj,int[] visited,Stack<Integer> st){
-        visited[node]=1;
-        for(int it:adj.get(node)){
-            if(visited[it]==0){
-                dfs(it,adj,visited,st);
-            }
-        }
-        st.push(node);
-    }
+    
 }
