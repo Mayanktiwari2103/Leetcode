@@ -9,13 +9,11 @@ class Pair{
 class Solution {
     public int[] dijkstra(int V, int[][] edges, int src) {
         // code here
-        PriorityQueue<Pair> pq=new PriorityQueue<>((a,b)-> a.first-b.first);
-        ArrayList<ArrayList<Pair>> adj=new ArrayList<ArrayList<Pair>>();
-        
+        ArrayList<ArrayList<Pair>> adj=new ArrayList<>();
+        PriorityQueue<Pair> pq=new PriorityQueue<>((a,b)->a.first-b.first);
         for(int i=0;i<V;i++){
             adj.add(new ArrayList<>());
         }
-        
         for(int[] edge:edges){
             int u=edge[0];
             int v=edge[1];
@@ -25,12 +23,9 @@ class Solution {
         }
         
         int[] distance=new int[V];
-        for(int i=0;i<V;i++){
-            distance[i]=Integer.MAX_VALUE;
-        }
-        distance[src]=0;
+        Arrays.fill(distance,Integer.MAX_VALUE);
         pq.add(new Pair(0,src));
-        
+        distance[src]=0;
         while(!pq.isEmpty()){
             int dist=pq.peek().first;
             int node=pq.peek().second;
@@ -38,7 +33,6 @@ class Solution {
             for(Pair it:adj.get(node)){
                 int v=it.first;
                 int w=it.second;
-                
                 if(dist+w < distance[v]){
                     distance[v]=dist+w;
                     pq.add(new Pair(distance[v],v));
