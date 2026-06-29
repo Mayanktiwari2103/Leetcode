@@ -1,3 +1,11 @@
+class Pair{
+    int first;
+    int second;
+    Pair(int first,int second){
+        this.first=first;
+        this.second=second;
+    }
+}
 class Tuple{
     int first;
     int second;
@@ -8,56 +16,42 @@ class Tuple{
         this.third=third;
     }
 }
-class Pair{
-    int first;
-    int second;
-    Pair(int first,int second){
-        this.first=first;
-        this.second=second;
-    }
-}
 class Solution {
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
-        ArrayList<ArrayList<Pair>> adj =new  ArrayList<ArrayList<Pair>>();
+        ArrayList<ArrayList<Pair>> adj=new ArrayList<>();
         for(int i=0;i<n;i++){
             adj.add(new ArrayList<>());
         }
 
-        for(int[] edge:flights){
-            int u=edge[0];
-            int v=edge[1];
-            int w=edge[2];
+        for(int flight[]:flights){
+            int u=flight[0];
+            int v=flight[1];
+            int w=flight[2];
             adj.get(u).add(new Pair(v,w));
         }
-
-        Queue<Tuple> q=new LinkedList<>();
         int[] distance=new int[n];
-        for(int i=0;i<n;i++){
-            distance[i]=Integer.MAX_VALUE;
-        }
- 
-        q.add(new Tuple(0,src,0));
+        Arrays.fill(distance,Integer.MAX_VALUE);
+        //PriorityQueue<Tuple> pq=new PriorityQueue<>((a,b)-> a.first-b.first);
+        Queue<Tuple> pq=new LinkedList<>();
+        pq.add(new Tuple(0,src,0));
         distance[src]=0;
-        while(!q.isEmpty()){
-            int stops=q.peek().first;
-            int node=q.peek().second;
-            int dist=q.peek().third;
-            q.poll();
-            if(stops > k ) continue;
+        while(!pq.isEmpty()){
+            int dist=pq.peek().first;
+            int node=pq.peek().second;
+            int stops=pq.peek().third;
+            pq.poll();
+            if(stops> k) continue;
             for(Pair it:adj.get(node)){
-                int adjnode=it.first;
-                int weight=it.second;
-                if(dist+weight < distance[adjnode] && stops<=k){
-                    q.add(new Tuple(stops+1,adjnode,dist+weight));
-                    distance[adjnode]=dist+weight;
+                int u=it.first;
+                int v=it.second;
+                if(dist+v < distance[u]){
+                    distance[u]=dist+v;
+                    pq.add(new Tuple(distance[u],u,stops+1));
                 }
-
             }
-        }
 
-        if(distance[dst]==Integer.MAX_VALUE){
-            return -1;
         }
+        if(distance[dst]==Integer.MAX_VALUE) return -1;
         return distance[dst];
 
     }
