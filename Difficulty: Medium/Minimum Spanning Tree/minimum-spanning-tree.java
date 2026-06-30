@@ -6,6 +6,17 @@ class Pair{
         this.second=second;
     }
 }
+
+class Tuple{
+    int first;
+    int second;
+    int third;
+    Tuple(int first,int second,int third){
+        this.first=first;
+        this.second=second;
+        this.third=third;
+    }
+}
 class Solution {
     public int spanningTree(int V, int[][] edges) {
         // code here
@@ -22,26 +33,31 @@ class Solution {
             adj.get(v).add(new Pair(u,w));
         }
         
-        PriorityQueue<Pair> pq=new PriorityQueue<>((a,b)-> a.first-b.first);
+        PriorityQueue<Tuple> pq=new PriorityQueue<>((a,b)-> a.first-b.first);
         int[] vis=new int[V];
-        pq.add(new Pair(0,0));
+        List<Pair> ls=new ArrayList<>();
+        pq.add(new Tuple(0,0,-1));
         int sum=0;
         while(!pq.isEmpty()){
-            int wt=pq.peek().first;
+            int dist=pq.peek().first;
             int node=pq.peek().second;
+            int parent=pq.peek().third;
             pq.poll();
-            
             if(vis[node]==1) continue;
             vis[node]=1;
-            sum+=wt;
+            sum+=dist;
+            if(parent!=-1){
+                ls.add(new Pair(parent,node));
+            }
             for(Pair it:adj.get(node)){
-                int adjnode=it.first;
+                int v=it.first;
                 int w=it.second;
-                if(vis[adjnode]==0){
-                    pq.add(new Pair(w,adjnode));
+                if(vis[v]==0){
+                    pq.add(new Tuple(w,v,node));
                 }
             }
         }
+        
         return sum;
         
     }
