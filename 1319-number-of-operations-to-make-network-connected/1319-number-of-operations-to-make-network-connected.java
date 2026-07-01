@@ -36,21 +36,21 @@ class DisjointSet{
 class Solution {
     public int makeConnected(int n, int[][] connections) {
         DisjointSet ds=new DisjointSet(n);
-        if(connections.length < n-1) return -1;
-        for(int[] edge:connections){
-            int u=edge[0];
-            int v=edge[1];
-            if(ds.findUPar(u)!=ds.findUPar(v)){
-                ds.unionbysize(u,v);
-            }
+        if(connections.length< n-1) return -1;
+       for(int[] connect:connections){
+        int u=connect[0];
+        int v=connect[1];
+        if(ds.findUPar(u)!=ds.findUPar(v)){
+            ds.unionbysize(u,v);
         }
-        int cnt=0;
-        for(int i=0;i<n;i++){
-            if(ds.findUPar(i)==i){
-                cnt++;
-            }
+       }
+       int cnt=0;
+       for(int i=0;i<n;i++){
+        if(ds.findUPar(i)==i){
+            cnt++;
+        }
+       }
 
-        }
-        return cnt-1;
+       return cnt-1;
     }
 }
