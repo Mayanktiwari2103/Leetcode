@@ -202,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0055-jump-game) |
+| [0070-climbing-stairs](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -502,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0050-powx-n) |
 | [0069-sqrtx](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0069-sqrtx) |
+| [0070-climbing-stairs](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0189-rotate-array) |
 | [0367-valid-perfect-square](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0509-fibonacci-number](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0509-fibonacci-number) |
@@ -624,6 +626,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0509-fibonacci-number) |
 | [1013-fibonacci-number](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1013-fibonacci-number) |
 ## Backtracking
