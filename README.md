@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0502-ipo](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0502-ipo) |
 | [0503-next-greater-element-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0518-coin-change-ii) |
 | [0525-contiguous-array](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0525-contiguous-array) |
@@ -277,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0455-assign-cookies) |
+| [0502-ipo](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0621-task-scheduler) |
 | [0678-valid-parenthesis-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
@@ -501,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0455-assign-cookies) |
+| [0502-ipo](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0721-accounts-merge) |
@@ -626,6 +629,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0502-ipo](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
