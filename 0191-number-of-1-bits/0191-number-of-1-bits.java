@@ -1,15 +1,9 @@
 class Solution {
     public int hammingWeight(int n) {
-        StringBuilder sb=new StringBuilder();
-        while(n!=0){
-            sb.append(n%2);
-            n=n/2;
-        }
-        sb=sb.reverse();
-        int m=sb.length();
         int cnt=0;
-        for(int i=0;i<m;i++){
-            if(sb.charAt(i)=='1') cnt++;
+        while(n!=0){
+            if((n%2) ==1) cnt++;
+            n=n/2;
         }
         return cnt;
     }
