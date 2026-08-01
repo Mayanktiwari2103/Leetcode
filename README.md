@@ -569,6 +569,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0189-rotate-array) |
+| [0231-power-of-two](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0231-power-of-two) |
 | [0367-valid-perfect-square](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0368-largest-divisible-subset](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0509-fibonacci-number](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0509-fibonacci-number) |
@@ -680,6 +681,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0044-wildcard-matching](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0206-reverse-linked-list) |
+| [0231-power-of-two](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0509-fibonacci-number](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0509-fibonacci-number) |
 | [1013-fibonacci-number](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1013-fibonacci-number) |
@@ -724,6 +726,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0191-number-of-1-bits) |
 | [0222-count-complete-tree-nodes](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [0231-power-of-two](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0231-power-of-two) |
 | [2351-first-letter-to-appear-twice](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2351-first-letter-to-appear-twice) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## Depth-First Search
