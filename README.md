@@ -1076,4 +1076,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Quicksort
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
