@@ -6,17 +6,19 @@ class Solution {
         long cnt=0;
         long score=0;
         long sum=0;
+
         while(r<n){
-           sum+=nums[r];
-           score=sum*(r-l+1);
-           while(score >= k){
-              sum-=nums[l];
-              l++;
-              score=sum*(r-l+1);
-           }
-           cnt+=(r-l+1);
-           r++;
+            sum+=nums[r];
+            score=sum*(r-l+1);
+            while(score >=k){
+                sum-=nums[l];
+                l++;
+                score=sum*(r-l+1);
+            }
+            cnt+=(r-l+1);
+            r++;
         }
+
         return cnt;
     }
 }
