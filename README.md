@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1636-sort-array-by-increasing-frequency) |
 | [1646-kth-missing-positive-number](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1646-kth-missing-positive-number) |
+| [1710-maximum-units-on-a-truck](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1710-maximum-units-on-a-truck) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1901-find-a-peak-element-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1901-find-a-peak-element-ii) |
 | [2047-find-a-peak-element-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2047-find-a-peak-element-ii) |
@@ -292,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0890-lemonade-change) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
+| [1710-maximum-units-on-a-truck](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1710-maximum-units-on-a-truck) |
 | [1903-largest-odd-number-in-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [2032-largest-odd-number-in-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
@@ -526,6 +528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1552-magnetic-force-between-two-balls](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1552-magnetic-force-between-two-balls) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1636-sort-array-by-increasing-frequency) |
+| [1710-maximum-units-on-a-truck](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1710-maximum-units-on-a-truck) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2517-maximum-tastiness-of-candy-basket](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2517-maximum-tastiness-of-candy-basket) |
 ## Divide and Conquer
