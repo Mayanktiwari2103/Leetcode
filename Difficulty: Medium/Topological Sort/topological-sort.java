@@ -1,41 +1,41 @@
 class Solution {
     public ArrayList<Integer> topoSort(int V, int[][] edges) {
         // code here
-        ArrayList<ArrayList<Integer>> adj=new ArrayList<ArrayList<Integer>>();
-        Stack<Integer> st=new Stack<>();
+        ArrayList<Integer> ls=new ArrayList<>();
+        Queue<Integer> q=new LinkedList<>();
+        ArrayList<ArrayList<Integer>> adj=new ArrayList<>();
         for(int i=0;i<V;i++){
             adj.add(new ArrayList<>());
         }
-        for(int edge[]:edges){
-            adj.get(edge[0]).add(edge[1]);
+        
+        for(int[] edge:edges){
+            int u=edge[0];
+            int v=edge[1];
+            adj.get(u).add(v);
         }
-        int[] indegree=new int[V];
+        int[] inc=new int[V];
         for(int i=0;i<V;i++){
             for(int it:adj.get(i)){
-                indegree[it]++;
+                inc[it]++;
             }
         }
-        ArrayList<Integer> ls= new ArrayList<>();
-        Queue<Integer> q=new LinkedList<>();
         for(int i=0;i<V;i++){
-            if(indegree[i]==0){
+            if(inc[i]==0){
                 q.add(i);
             }
         }
+        
         while(!q.isEmpty()){
-            int node=q.poll();
-            ls.add(node);
-            for(int it:adj.get(node)){
-                indegree[it]--;
-                if(indegree[it]==0){
+            int curr=q.poll();
+            ls.add(curr);
+            for(int it:adj.get(curr)){
+                inc[it]--;
+                if(inc[it]==0){
                     q.add(it);
                 }
             }
         }
         
         return ls;
-        
     }
-    
-    
 }
