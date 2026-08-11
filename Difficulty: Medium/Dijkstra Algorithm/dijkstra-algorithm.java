@@ -1,45 +1,54 @@
 class Pair{
-    int first;
-    int second;
-    Pair(int first,int second){
-        this.first=first;
-        this.second=second;
+    int node;
+    int distance;
+    Pair(int node,int distance){
+        this.node=node;
+        this.distance=distance;
     }
-}
+} 
 class Solution {
-    public int[] dijkstra(int V, int[][] edges, int src) {
+    public ArrayList<Integer> dijkstra(int V, int[][] edges, int src) {
         // code here
         ArrayList<ArrayList<Pair>> adj=new ArrayList<>();
-        PriorityQueue<Pair> pq=new PriorityQueue<>((a,b)->a.first-b.first);
         for(int i=0;i<V;i++){
             adj.add(new ArrayList<>());
         }
         for(int[] edge:edges){
             int u=edge[0];
             int v=edge[1];
-            int w=edge[2];
-            adj.get(u).add(new Pair(v,w));
-            adj.get(v).add(new Pair(u,w));
+            int d=edge[2];
+            adj.get(u).add(new Pair(v,d));
+            adj.get(v).add(new Pair(u,d));
         }
+        ArrayList<Integer> ls= new ArrayList<>();
+        int[] dist=new int[V];
+        Arrays.fill(dist,Integer.MAX_VALUE);
+        dist[src]=0;
+        PriorityQueue<Pair> pq=new PriorityQueue<>((a,b) -> a.distance-b.distance);
+        pq.add(new Pair(src,0));
         
-        int[] distance=new int[V];
-        Arrays.fill(distance,Integer.MAX_VALUE);
-        pq.add(new Pair(0,src));
-        distance[src]=0;
         while(!pq.isEmpty()){
-            int dist=pq.peek().first;
-            int node=pq.peek().second;
-            pq.poll();
+            Pair curr=pq.poll();
+            int node=curr.node;
+            int distance=curr.distance;
+            
+            if(distance > dist[node]) continue;
+            
             for(Pair it:adj.get(node)){
-                int v=it.first;
-                int w=it.second;
-                if(dist+w < distance[v]){
-                    distance[v]=dist+w;
-                    pq.add(new Pair(distance[v],v));
+                int u=it.node;
+                int v=it.distance;
+                if(distance+ v < dist[u]){
+                    dist[u]=distance+v;
+                    pq.add(new Pair(u,dist[u]));
                 }
             }
+            
         }
         
-        return distance;
+        for(int x:dist){
+            ls.add(x);
+        }
+        return ls;
+        
     }
 }
