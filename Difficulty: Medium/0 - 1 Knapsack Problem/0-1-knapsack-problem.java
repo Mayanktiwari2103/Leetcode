@@ -1,28 +1,29 @@
 class Solution {
-    private int generate(int ind, int val[], int wt[], int target,int[][] dp){
+    private int generate(int ind , int[] val , int[] wt , int W , int[][] dp){
         if(ind==0){
-            if(wt[ind]<=target){
-                return dp[ind][target]=val[ind];
+            if(wt[ind] <= W){
+                return val[ind];
             }
-            return 0;
+            return  0;
         }
-        if(dp[ind][target]!=-1) return dp[ind][target];
-        int not=generate(ind-1,val,wt,target,dp);
-        int take=0;
-        if(target>=wt[ind]){
-            take=val[ind]+generate(ind-1,val,wt,target-wt[ind],dp);
+        if(dp[ind][W]!=-1) return dp[ind][W];
+        int notpick=generate(ind-1, val, wt, W, dp);
+        int pick=0;
+        if(wt[ind] <= W){
+            pick=val[ind] + generate(ind-1, val , wt, W-wt[ind], dp);
         }
-        return dp[ind][target]=Math.max(take,not);
         
+        return dp[ind][W]=Math.max(pick,notpick);
     }
     public int knapsack(int W, int val[], int wt[]) {
         // code here
-        int n=wt.length;
+        int n=val.length;
         int[][] dp=new int[n][W+1];
-        for(int[] row:dp){
-            Arrays.fill(row,-1);
+        for(int i=0;i<n;i++){
+            for(int j=0;j<=W;j++){
+                dp[i][j]=-1;
+            }
         }
-        return generate(n-1,val,wt,W,dp);
-        
+        return generate(n-1 , val ,wt , W , dp);
     }
 }
