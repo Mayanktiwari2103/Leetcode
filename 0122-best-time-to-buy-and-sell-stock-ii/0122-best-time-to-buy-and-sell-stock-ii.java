@@ -1,16 +1,16 @@
 class Solution {
-    private int generate(int[] prices , int ind , int buy,int[][] dp){
-        if(ind==prices.length) return 0;
+    private int generate(int[] prices , int ind , int buy , int[][] dp){
+        if(ind==prices.length){
+          return 0;
+        }
         if(dp[ind][buy]!=-1) return dp[ind][buy];
         int profit=0;
-        if(buy==1){
-            profit=Math.max(-prices[ind]+generate(prices,ind+1,0,dp),  0+generate(prices,ind+1,1,dp));
-        }
-        else{
-            profit=Math.max(prices[ind]+generate(prices,ind+1,1,dp)  , 0+generate(prices,ind+1,0,dp));
+        profit=Math.max(-prices[ind] + generate(prices, ind+1, 0,dp),0+generate(prices,ind+1,1,dp));
+        if(buy==0){
+          profit=Math.max(prices[ind]+generate(prices, ind+1,1,dp), 0+generate(prices,ind+1,0,dp));
         }
 
-        return  dp[ind][buy] = profit;
+        return dp[ind][buy]=profit;
     }
     public int maxProfit(int[] prices) {
         int n=prices.length;
@@ -18,7 +18,6 @@ class Solution {
         for(int[] row:dp){
             Arrays.fill(row,-1);
         }
-
-        return generate(prices,0,1,dp);
+        return generate(prices, 0, 1, dp);
     }
 }
