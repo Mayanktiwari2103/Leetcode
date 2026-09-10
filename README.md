@@ -301,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1903-largest-odd-number-in-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [2032-largest-odd-number-in-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
+| [2224-minimum-number-of-operations-to-convert-time](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2224-minimum-number-of-operations-to-convert-time) |
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2517-maximum-tastiness-of-candy-basket](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2517-maximum-tastiness-of-candy-basket) |
@@ -437,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1903-largest-odd-number-in-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [2024-maximize-the-confusion-of-an-exam](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2024-maximize-the-confusion-of-an-exam) |
 | [2032-largest-odd-number-in-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2032-largest-odd-number-in-string) |
+| [2224-minimum-number-of-operations-to-convert-time](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2224-minimum-number-of-operations-to-convert-time) |
 | [2351-first-letter-to-appear-twice](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2351-first-letter-to-appear-twice) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 | [3931-check-adjacent-digit-differences](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3931-check-adjacent-digit-differences) |
