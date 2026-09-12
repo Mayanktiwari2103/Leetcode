@@ -1,35 +1,32 @@
-class Solution {    
-    private boolean generate(int[] nums , int ind , int sum , int[][] dp){
-        if(sum==0) return true;
+class Solution {   
+    private boolean generate(int[] nums, int ind , int target, int[][] dp){
+        if(target==0) return true;
         if(ind==0){
-           if(nums[ind]==sum){
+           if(target==nums[ind]){
             return true;
            }
            return false;
         }
-        if(dp[ind][sum]!=-1) return dp[ind][sum]==1;
-        boolean not=generate(nums, ind-1,sum,dp);
+        if(dp[ind][target]!=-1) return dp[ind][target]==1;
+        boolean not=generate(nums, ind-1,target,dp);
         boolean take=false;
-        if(nums[ind] <= sum){
-            take=generate(nums, ind-1 , sum-nums[ind],dp);
+        if(nums[ind]<=target){
+            take=generate(nums, ind-1,target-nums[ind],dp);
         }
-        dp[ind][sum]=not || take ?1:0;
+        dp[ind][target]=not || take?1:0;
         return not || take;
-    }    
+    } 
     public boolean canPartition(int[] nums) {
         int n=nums.length;
         int sum=0;
-        for(int i=0;i<n;i++){
-            sum+=nums[i];
+        for(int x:nums){
+            sum+=x;
         }
         if(sum%2==1) return false;
         int[][] dp=new int[n][(sum/2)+1];
-        for(int i=0;i<n;i++){
-            for(int j=0;j<=sum/2;j++){
-                dp[i][j]=-1;
-            }
+        for(int[] row:dp){
+            Arrays.fill(row,-1);
         }
-
-        return generate(nums , n-1, sum/2, dp);
+        return generate(nums, n-1, sum/2,dp);
     }
 }
