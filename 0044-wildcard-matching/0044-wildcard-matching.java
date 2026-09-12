@@ -1,8 +1,8 @@
 class Solution {
-    private boolean generate(String s, String p, int i , int j, int[][] dp){
-        if(i<0 && j<0 ) return true;
-        if(j<0) return false;
-        if(i<0){
+    private boolean generate(int i , int j, String s , String p, int[][] dp){
+        if(i<0 && j<0) return true;
+        if(i>=0 && j<0) return false;
+        if(i<0 ){
             for(int k=0;k<=j;k++){
                 if(p.charAt(k)!='*') return false;
             }
@@ -11,17 +11,16 @@ class Solution {
         boolean ans;
         if(dp[i][j]!=-1) return dp[i][j]==1;
         if(s.charAt(i)==p.charAt(j)){
-            ans= generate(s,p,i-1,j-1,dp);
+            ans= generate(i-1,j-1,s,p,dp);
         }
         else if(p.charAt(j)=='?'){
-            ans=generate(s,p,i-1,j-1,dp);
+            ans= generate(i-1,j-1,s,p,dp);
         }
-
         else if(p.charAt(j)=='*'){
-            ans=generate(s,p,i,j-1,dp) || generate(s,p,i-1,j,dp);
+            ans= generate(i-1,j,s,p,dp) || generate(i,j-1,s,p,dp);
         }
         else{
-            ans=false;
+            ans= false;
         }
         dp[i][j]=ans?1:0;
         return ans;
@@ -33,6 +32,6 @@ class Solution {
         for(int[] row:dp){
             Arrays.fill(row,-1);
         }
-        return generate(s,p,n-1,m-1,dp);
+        return generate(n-1,m-1,s,p,dp);
     }
 }
