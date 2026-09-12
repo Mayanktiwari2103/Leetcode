@@ -162,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2227-sum-of-subarray-ranges](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2302-count-subarrays-with-score-less-than-k) |
+| [2395-find-subarrays-with-equal-sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2395-find-subarrays-with-equal-sum) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2517-maximum-tastiness-of-candy-basket](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2517-maximum-tastiness-of-candy-basket) |
 | [2574-left-and-right-sum-differences](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2574-left-and-right-sum-differences) |
@@ -387,6 +388,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2351-first-letter-to-appear-twice](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2351-first-letter-to-appear-twice) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
+| [2395-find-subarrays-with-equal-sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2395-find-subarrays-with-equal-sum) |
 ## String
 |  |
 | ------- |
