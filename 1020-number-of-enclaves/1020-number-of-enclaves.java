@@ -1,60 +1,63 @@
+class Pair{
+    int row;
+    int col;
+    Pair(int row,int col){
+        this.row=row;
+        this.col=col;
+    }
+}
 class Solution {
-
     public int numEnclaves(int[][] grid) {
         int n=grid.length;
         int m=grid[0].length;
-        int[][] visited=new int[n][m];
-        int[] drow={-1,0,1,0};
-        int[] dcol={0,1,0,-1};
-        int cntfirst=0;
+        int[][] vis=new int[n][m];
+        Queue<Pair> q=new LinkedList<>();
+        
         for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                if(grid[i][j]==1){
-                   cntfirst++;
-                }
+            if(grid[i][0]==1){
+                q.add(new Pair(i,0));
+                vis[i][0]=1;
+            }
+            if(grid[i][m-1]==1){
+                q.add(new Pair(i,m-1));
+                vis[i][m-1]=1;
             }
         }
 
         for(int j=0;j<m;j++){
-            if(grid[0][j]==1 && visited[0][j]==0){
-                dfs(0,j,grid,visited,drow,dcol);
+            if(grid[0][j]==1){
+                q.add(new Pair(0,j));
+                vis[0][j]=1;
             }
-            if(grid[n-1][j]==1 && visited[n-1][j]==0){
-                dfs(n-1,j,grid,visited,drow,dcol);
+            if(grid[n-1][j]==1){
+                q.add(new Pair(n-1,j));
+                vis[n-1][j]=1;
             }
-
         }
-
-        for(int i=0;i<n;i++){
-            if(grid[i][0]==1 && visited[i][0]==0){
-                dfs(i,0,grid,visited,drow,dcol);
-            }
-            if(grid[i][m-1]==1 && visited[i][m-1]==0){
-                dfs(i,m-1,grid,visited,drow,dcol);
+        int[] drow={-1,0,1,0};
+        int[] dcol={0,1,0,-1};
+        while(!q.isEmpty()){
+            int row=q.peek().row;
+            int col=q.peek().col;
+            q.poll();
+            for(int i=0;i<4;i++){
+                int nrow=row+drow[i];
+                int ncol=col+dcol[i];
+                if(nrow>=0 && nrow<n && ncol>=0 && ncol<m && grid[nrow][ncol]==1 && vis[nrow][ncol]==0){
+                    q.add(new Pair(nrow,ncol));
+                    vis[nrow][ncol]=1;
+                }
             }
         }
         int cnt=0;
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
-                if(visited[i][j]==1 && grid[i][j]==1){
+                if(grid[i][j]==1 && vis[i][j]==0){
                     cnt++;
                 }
             }
         }
 
-        return cntfirst-cnt;
-
-    }
-    private void dfs(int row, int col,int[][] grid, int[][] visited,int[] drow, int[] dcol){
-        int n=grid.length;
-        int m=grid[0].length;
-        visited[row][col]=1;
-        for(int i=0;i<4;i++){
-            int nrow=row+drow[i];
-            int ncol=col+dcol[i];
-            if(nrow>=0 && nrow<n && ncol>=0 && ncol<m && visited[nrow][ncol]==0 && grid[nrow][ncol]==1){
-                dfs(nrow,ncol,grid,visited,drow,dcol);
-            }
-        }
-    }
+        return cnt;
+    }   
 }
