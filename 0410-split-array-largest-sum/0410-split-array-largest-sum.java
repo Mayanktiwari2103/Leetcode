@@ -3,33 +3,32 @@ class Solution {
         int n=nums.length;
         int l=Arrays.stream(nums).max().getAsInt();
         int r=Arrays.stream(nums).sum();
-        int ans=0;
+
         while(l<=r){
             int mid=l+(r-l)/2;
-            if(subarrays(nums,mid) <= k){
-                ans=mid;
+            if(cntsubarrays(nums , mid) <=k){
                 r=mid-1;
             }
             else{
                 l=mid+1;
-
             }
-        }
-        return ans;
+        }  
+
+        return l;     
     }
 
-    private int subarrays(int[] nums, int sum){
+    private int cntsubarrays(int[] nums , int total){
         int n=nums.length;
-        int cntsubarray=1;
-        int total=0;
+        int subarray=1;
+        int sum=0;
         for(int i=0;i<n;i++){
-            total+=nums[i];
-            if(total > sum){
-                cntsubarray++;
-                total=nums[i];
+            sum+=nums[i];
+            if(sum>total){
+                sum=nums[i];
+                subarray++;
             }
+        }    
 
-        }
-        return cntsubarray;
+        return subarray;
     }
 }
