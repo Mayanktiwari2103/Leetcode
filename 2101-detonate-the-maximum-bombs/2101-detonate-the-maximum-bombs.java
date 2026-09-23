@@ -40,7 +40,7 @@ class Solution {
                 long dx=x1-x;
                 long dy=y1-y;
 
-                if(Math.sqrt(dx*dx + dy*dy) <=r){
+                if(dx*dx + dy*dy <=(long) r*r){
                     adj.get(i).add(j);
                 }                
             }
