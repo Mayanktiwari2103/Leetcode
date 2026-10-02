@@ -1,20 +1,22 @@
 class Solution {
     public List<List<Integer>> combine(int n, int k) {
-        List<List<Integer>> result=new ArrayList<>();
-        generate(n,k,result,new ArrayList<>(),1);
-        return result;
+        List<List<Integer>> ls=new ArrayList<>();
+        generate(n,k,ls,1,new ArrayList<>());
+        return ls;
     }
-    public void generate(int n,int k, List<List<Integer>> result,List<Integer> list,int start){
+
+    private void generate(int n , int k , List<List<Integer>> ls,int ind, List<Integer> list){
         if(list.size()==k){
-            result.add(new ArrayList<>(list));
+            ls.add(new ArrayList<>(list));
         }
-        if(list.size()>k){
+        if(list.size() >k){
             return;
         }
-        for(int i=start;i<=n;i++){
+        for(int i=ind;i<=n;i++){
             list.add(i);
-            generate(n,k,result,list,i+1);
+            generate(n,k,ls,i+1,list);
             list.remove(list.size()-1);
         }
     }
+    
 }
