@@ -171,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2594-minimum-time-to-repair-cars](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2594-minimum-time-to-repair-cars) |
 | [3903-smallest-stable-index-i](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3904-smallest-stable-index-ii) |
+| [4061-minimum-queen-moves-to-reach-target](https://github.com/Mayanktiwari2103/Leetcode/tree/master/4061-minimum-queen-moves-to-reach-target) |
 | [4065-rearrange-array-by-removing-distinct-values](https://github.com/Mayanktiwari2103/Leetcode/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 ## Simulation
 |  |
@@ -616,6 +617,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2032-largest-odd-number-in-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2050-count-good-numbers) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2101-detonate-the-maximum-bombs) |
+| [4061-minimum-queen-moves-to-reach-target](https://github.com/Mayanktiwari2103/Leetcode/tree/master/4061-minimum-queen-moves-to-reach-target) |
 ## Stack
 |  |
 | ------- |
