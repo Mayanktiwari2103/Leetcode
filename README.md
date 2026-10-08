@@ -172,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3903-smallest-stable-index-i](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3904-smallest-stable-index-ii) |
 | [4061-minimum-queen-moves-to-reach-target](https://github.com/Mayanktiwari2103/Leetcode/tree/master/4061-minimum-queen-moves-to-reach-target) |
+| [4062-transform-array-using-pair-operations](https://github.com/Mayanktiwari2103/Leetcode/tree/master/4062-transform-array-using-pair-operations) |
 | [4065-rearrange-array-by-removing-distinct-values](https://github.com/Mayanktiwari2103/Leetcode/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 ## Simulation
 |  |
@@ -1148,4 +1149,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+## Brainteaser
+|  |
+| ------- |
+| [4062-transform-array-using-pair-operations](https://github.com/Mayanktiwari2103/Leetcode/tree/master/4062-transform-array-using-pair-operations) |
 <!---LeetCode Topics End-->
