@@ -8,8 +8,6 @@ class Solution {
         int r=0;
         int c=0;
         
-        int[] drow={-1,0,1,0};
-        int[] dcol={0,1,0,-1};
         while(true){
             char ch=grid[r][c];
             int nr=r;
