@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [2395-find-subarrays-with-equal-sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2395-find-subarrays-with-equal-sum) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2517-maximum-tastiness-of-candy-basket](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2517-maximum-tastiness-of-candy-basket) |
 | [2574-left-and-right-sum-differences](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2574-left-and-right-sum-differences) |
@@ -402,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2351-first-letter-to-appear-twice](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2351-first-letter-to-appear-twice) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2395-find-subarrays-with-equal-sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2395-find-subarrays-with-equal-sum) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [4065-rearrange-array-by-removing-distinct-values](https://github.com/Mayanktiwari2103/Leetcode/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 ## String
 |  |
@@ -893,6 +895,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2024-maximize-the-confusion-of-an-exam](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2024-maximize-the-confusion-of-an-exam) |
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2302-count-subarrays-with-score-less-than-k) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Monotonic Queue
 |  |
 | ------- |
