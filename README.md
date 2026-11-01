@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0455-assign-cookies](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0455-assign-cookies) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0485-max-consecutive-ones](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -544,6 +545,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0455-assign-cookies) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0502-ipo](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0692-top-k-frequent-words) |
@@ -621,6 +623,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0367-valid-perfect-square](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0368-largest-divisible-subset](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0453-minimum-moves-to-equal-array-elements) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0509-fibonacci-number](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0509-fibonacci-number) |
 | [1013-fibonacci-number](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1013-fibonacci-number) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
