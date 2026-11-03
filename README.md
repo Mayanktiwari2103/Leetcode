@@ -175,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2594-minimum-time-to-repair-cars](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2594-minimum-time-to-repair-cars) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2778-sum-of-squares-of-special-elements) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3882-minimum-xor-path-in-a-grid) |
 | [3903-smallest-stable-index-i](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3904-smallest-stable-index-ii) |
@@ -633,6 +634,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2032-largest-odd-number-in-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2050-count-good-numbers) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2101-detonate-the-maximum-bombs) |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 | [4061-minimum-queen-moves-to-reach-target](https://github.com/Mayanktiwari2103/Leetcode/tree/master/4061-minimum-queen-moves-to-reach-target) |
 ## Stack
 |  |
