@@ -324,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2517-maximum-tastiness-of-candy-basket](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2517-maximum-tastiness-of-candy-basket) |
+| [3789-minimum-cost-to-acquire-required-items](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3789-minimum-cost-to-acquire-required-items) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -637,6 +638,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2050-count-good-numbers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2050-count-good-numbers) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2101-detonate-the-maximum-bombs) |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
+| [3789-minimum-cost-to-acquire-required-items](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3789-minimum-cost-to-acquire-required-items) |
 | [4061-minimum-queen-moves-to-reach-target](https://github.com/Mayanktiwari2103/Leetcode/tree/master/4061-minimum-queen-moves-to-reach-target) |
 ## Stack
 |  |
