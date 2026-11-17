@@ -191,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/Mayanktiwari2103/Leetcode/tree/master/0735-asteroid-collision) |
 | [2058-concatenation-of-array](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2058-concatenation-of-array) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [4065-rearrange-array-by-removing-distinct-values](https://github.com/Mayanktiwari2103/Leetcode/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 ## Binary Search
 |  |
@@ -467,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2024-maximize-the-confusion-of-an-exam](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2024-maximize-the-confusion-of-an-exam) |
 | [2032-largest-odd-number-in-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2224-minimum-number-of-operations-to-convert-time](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2224-minimum-number-of-operations-to-convert-time) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [2351-first-letter-to-appear-twice](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2351-first-letter-to-appear-twice) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 | [3931-check-adjacent-digit-differences](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3931-check-adjacent-digit-differences) |
