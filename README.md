@@ -469,6 +469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1903-largest-odd-number-in-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [2024-maximize-the-confusion-of-an-exam](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2024-maximize-the-confusion-of-an-exam) |
 | [2032-largest-odd-number-in-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2032-largest-odd-number-in-string) |
+| [2124-check-if-all-as-appears-before-all-bs](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2124-check-if-all-as-appears-before-all-bs) |
 | [2224-minimum-number-of-operations-to-convert-time](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2224-minimum-number-of-operations-to-convert-time) |
 | [2243-calculate-digit-sum-of-a-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [2351-first-letter-to-appear-twice](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2351-first-letter-to-appear-twice) |
