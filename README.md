@@ -193,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2058-concatenation-of-array](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2058-concatenation-of-array) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2243-calculate-digit-sum-of-a-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2243-calculate-digit-sum-of-a-string) |
+| [3360-stone-removal-game](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3360-stone-removal-game) |
 | [4065-rearrange-array-by-removing-distinct-values](https://github.com/Mayanktiwari2103/Leetcode/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 ## Binary Search
 |  |
@@ -647,6 +648,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2032-largest-odd-number-in-string](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2050-count-good-numbers) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Mayanktiwari2103/Leetcode/tree/master/2101-detonate-the-maximum-bombs) |
+| [3360-stone-removal-game](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3360-stone-removal-game) |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/Mayanktiwari2103/Leetcode/tree/master/3789-minimum-cost-to-acquire-required-items) |
 | [4061-minimum-queen-moves-to-reach-target](https://github.com/Mayanktiwari2103/Leetcode/tree/master/4061-minimum-queen-moves-to-reach-target) |
